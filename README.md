@@ -1,4 +1,4 @@
-# Basic Chat App (Still not done)
+# Basic Chat App (Not Finished)
 
 A **MERN** (MongoDB, Express, React, Node.js) real-time chat application that allows users to sign up, authenticate, and exchange messages securely.
 
@@ -46,6 +46,11 @@ Create a `.env` file inside the `backend` folder and add the following:
 PORT=5001
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
+NODE_ENV=development
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_secret_key
 ```
 
 ### Running the App
@@ -64,19 +69,14 @@ npm start
 2. Start a chat with another user.
 3. Send and receive messages in real-time.
 
-## API Endpoints
-**Auth Routes**
-- `POST /api/auth/signup` - Create a new user
-- `POST /api/auth/login` - Authenticate user
-- `POST /api/auth/logout` - Logout user
-
-**Message Routes**
-- `POST /api/messages/send` - Send a message
-- `GET /api/messages` - Fetch messages
+## Tutorial Credit
+This project is based on a tutorial by **As a Programmer** on YouTube.
 
 ## Contributing
 Feel free to submit a pull request if you'd like to contribute!
 
 ## License
 This project is licensed under the **MIT License**.
+
+
 
