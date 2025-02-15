@@ -1,4 +1,4 @@
-# Chat App (Still not done)
+# Basic Chat App (Still not done)
 
 A **MERN** (MongoDB, Express, React, Node.js) real-time chat application that allows users to sign up, authenticate, and exchange messages securely.
 
