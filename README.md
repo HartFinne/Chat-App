@@ -1,4 +1,4 @@
-# Basic Chat App (Not Finished)
+# Realtime Chat App (Not Finished)
 
 A **MERN** (MongoDB, Express, React, Node.js) real-time chat application that allows users to sign up, authenticate, and exchange messages securely.
 
@@ -69,14 +69,8 @@ npm start
 2. Start a chat with another user.
 3. Send and receive messages in real-time.
 
-## Tutorial Credit
-This project is based on a tutorial by **As a Programmer** on YouTube.
 
-## Contributing
-Feel free to submit a pull request if you'd like to contribute!
 
-## License
-This project is licensed under the **MIT License**.
 
 
 
