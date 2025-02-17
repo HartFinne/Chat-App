@@ -13,7 +13,7 @@ const app = express();  // to initialize a instance of express
 
 const PORT = process.env.PORT;
 
-app.use(express.json());
+app.use(express.json({ limit: "10mb" }));  // Increase limit to 10MB
 app.use(cookieParser());  // to parse the cookie
 app.use(cors({
   origin: "http://localhost:5173",
